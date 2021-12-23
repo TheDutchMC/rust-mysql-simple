@@ -769,13 +769,6 @@ pub extern crate serde_json;
 #[macro_use]
 extern crate serde_derive;
 
-/// Reexport of `chrono` crate.
-pub use crate::myc::chrono;
-/// Reexport of `time` crate.
-pub use crate::myc::time;
-/// Reexport of `uuid` crate.
-pub use crate::myc::uuid;
-
 mod buffer_pool;
 mod conn;
 pub mod error;
